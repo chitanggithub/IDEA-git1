@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="_01_highMaven" />
+        <module name="maven01_highMaven" />
+        <module name="maven_dao" />
+        <module name="maven_service" />
+        <module name="maven_web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="_01_highMaven" target="1.8" />
+      <module name="maven01" target="1.8" />
+      <module name="maven01_highMaven" target="1.8" />
+      <module name="maven_01" target="1.8" />
+      <module name="maven_dao" target="1.8" />
+      <module name="maven_parent" target="1.8" />
+      <module name="maven_service" target="1.8" />
+      <module name="maven_web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
